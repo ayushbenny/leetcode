@@ -5,7 +5,6 @@ class Solution:
         second_pos = 2
         a = x-z
         b = y-z
-        print(abs(a),abs(b))
         if abs(a) == abs(b):
             return same_position
         elif abs(a) < abs(b):
